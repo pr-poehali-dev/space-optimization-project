@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Смирнов",
+    role: "Генеральный директор, ООО «Промтехснаб»",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Открыли счёт за один день без визита в банк. Эквайринг подключили на следующее утро. Наконец-то банк, который работает для бизнеса, а не наоборот.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Марина Козлова",
+    role: "Финансовый директор, ГК «АльфаТрейд»",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Кредит на пополнение оборотки одобрили за 18 часов. Ставка оказалась ниже, чем в трёх других банках. Работаем уже 2 года — ни разу не подвели.",
+  },
+  {
+    name: "Денис Ли",
+    role: "Основатель, e-commerce платформа «МегаМарт»",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Интернет-эквайринг с комиссией 1,5% и выплаты на следующий день — это именно то, что нужно онлайн-торговле. Конверсия на оплату выросла на 12%.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют предприниматели</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Реальные отзывы владельцев бизнеса, которые уже работают с КорпоБанком
           </p>
         </div>
 
